@@ -1,7 +1,7 @@
 {
   "name": "bloglist-backend",
   "version": "1.0.0",
-  "description": "FullStackApp",
+  "description": "full-stack-app",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node index.js",
