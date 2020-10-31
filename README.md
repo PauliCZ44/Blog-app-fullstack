@@ -1,12 +1,14 @@
-﻿### Blog app
-
-# LINK TO APP
-
- https://shrieking-mausoleum-88413.herokuapp.com/
+﻿## Blog app
 
 This is a small aplication, made with React, Node.js, MongoDB and Express.
 
 I created this app in fullstack course https://fullstackopen.com/en and added some features.
+
+## LINK TO APP
+
+ https://shrieking-mausoleum-88413.herokuapp.com/
+
+
 
 # Features: 
 - Register and login process
