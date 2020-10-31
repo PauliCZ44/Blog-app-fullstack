@@ -1,0 +1,7 @@
+PUT http://localhost:3003/api/blogs/5f8a8a37fb93052424b77683
+Content-Type: application/json
+
+{
+"author": "Test AUthor PUT33",
+"likes": 507
+}
