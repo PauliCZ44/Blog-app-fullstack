@@ -22,10 +22,9 @@ I created this app in fullstack course https://fullstackopen.com/en and added so
 * Users can like blogs
 
 ### Other informations
-- Testing:
- - Backend testing with Jest
- - Frontend testing with Jest and react-testing-library
- - E2E test with Cypress
+- Backend testing with Jest
+- Frontend testing with Jest and react-testing-library
+- E2E test with Cypress
 - Fontend made with React (v. 17.0.1)
 - Server side made with Express (node.js framework)
 - ESlint linter
