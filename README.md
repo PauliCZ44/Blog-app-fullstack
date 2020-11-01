@@ -9,15 +9,23 @@ I created this app in fullstack course https://fullstackopen.com/en and added so
  https://shrieking-mausoleum-88413.herokuapp.com/
 
 
-
 # Features: 
-- Register and login process
-- User  authentication with jsonwebtoken
-- Saving user login to local storage
-- Creating blogs and saving them to MongoDB
-- Fetching blogs from MongoDB and rendering them in frontend
-- Statistics about users
-- Users can delete their blogs
-- Users can like blogs
 
+### Main features of aplication:
+* Register and login process for users
+* User authentication with jsonwebtoken
+* Saving user login to local storage
+* Creating blogs and saving them to MongoDB
+* Fetching blogs from MongoDB and rendering them in frontend
+* Statistics about users
+* Users can delete their blogs
+* Users can like blogs
 
+### Other informations
+- Testing:
+ - Backend testing with Jest
+ - Frontend testing with Jest and react-testing-library
+ - E2E test with Cypress
+- Fontend made with React (v. 17.0.1)
+- Server side made with Express (node.js framework)
+- ESlint linter
