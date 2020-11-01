@@ -3,6 +3,9 @@ const bcrypt = require('bcrypt')      //encrypting passwords
 const loginRouter = require('express').Router()
 const User = require('../models/user')
 
+
+const SECRET = process.env.SECRET || 'secret string'
+
 loginRouter.post('/', async (request, response) => {  //api/login/ with req where is user and his password
   const body = request.body
 
@@ -23,7 +26,7 @@ loginRouter.post('/', async (request, response) => {  //api/login/ with req wher
     id: user._id,
   }
 
-  const token = jwt.sign(userForToken, process.env.SECRET)  //generate token
+  const token = jwt.sign(userForToken, SECRET)  //generate token
 
   response
     .status(200)  //200 = OK
