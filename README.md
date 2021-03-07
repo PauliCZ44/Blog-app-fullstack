@@ -1,4 +1,8 @@
-﻿## Blog app
+### Login credentials:
+Username: Test 
+Password: test
+
+## Blog app
 
 This is a small aplication, made with React, Node.js, MongoDB and Express.
 
